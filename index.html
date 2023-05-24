@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal portfolio website</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Average+Sans&family=Poppins:wght@200&family=Ubuntu:ital,wght@1,500&display=swap"
+    rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      color: white;
+      background-color: rgb(16, 2, 34);
+      font-family: 'Poppins', sans-serif;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 80px;
+      background-color:rgb(26, 2, 48); 
+       }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+
+    }
+
+    nav ul li {
+      list-style: none;
+      margin: 0 23px;
+    }
+
+    .left {
+      font-size: 1.5rem;
+    }
+
+    .firstSection {
+      display: flex;
+      justify-content: space-around;
+      margin: 23px 0px;
+      margin-bottom:28px;
+    }
+
+    .firstSection div {
+      /* width:33%; */
+    }
+
+    .leftSection {
+      margin: 50px 0px;
+      font-size: 3rem;
+    }
+
+    .rightSection {
+      .rightSection img width: 70%;
+      height: 70%;
+    }
+
+    .rightSection img {
+      height: 70%;
+      width: 70%;
+    }
+
+    .orange {
+      color: purple;
+      ;
+    }
+
+    a {
+      color: white;
+      position: sticky;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: pink;
+      font-size: 1.05rem
+    }
+
+    #element {
+      color: purple;
+    }
+    .secondSection{
+      background-color: rgb(28, 8, 40);
+    height: 444px;
+    margin-top: 95px;
+
+    }
+    .secondSection h1{
+      font-size:30px;
+      padding:0px 12px;
+      /* margin: 0px 700px; */
+    } 
+    .text-grey {
+    padding: 18px 12px;
+    /* margin: 0px 700px; */
+    font-size: 18px;
+    color: purple;
+}
+    .box{
+      background-color: white;
+      height: 2px;
+      width: 81vw;
+      margin: 34px;
+      display:flex;
+    }
+    .vertical{
+      background-color: white;
+      height:93px;
+      width:2px;
+      margin: 0px 100px;
+    }
+    .vertical-title{
+   position:relative;
+   top:86px;
+    }
+    h3{
+      position: relative;
+    top: 88px;
+    font-size: 9px;
+    width: 164px;
+    color:gray;
+
+    }
+    .image-top{
+      width: 33px;
+    position: relative;
+    top: -36px;
+    }
+    .flex{
+    background: rgb(1 1 45);
+    display: flex;
+    justify-content: space-evenly;
+    height: 222px;;
+}
+.flex ul{
+  list-style:none;
+}
+.footer-right{
+text-align:center;
+color:grey;
+padding:12px 0px;
+}
+.flex ul li{
+  padding:12px
+}
+.btn{
+  padding:12px;
+  background-color:rgb(85, 20, 128);
+  font-size:1rem;
+  border-radius:10px ;
+  color:white;
+}
+.btn:hover{
+  color:rgb(143, 124, 25);
+  cursor:pointer;
+}
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="left">
+        Yukesh's portfoliio
+      </div>
+      <div class="right">
+        <ul>
+          <li> <a href="#">Home</a></li>
+          <li> <a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Projects</a></li>
+          <li> <a href="#">Contact Me</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="firstSection">
+      <div class="leftSection">
+        <div> Hi, My name is <span class="orange">Yukesh</span></div>
+        <div>and I am a Passionate</div>
+        
+        <span id="element"></span>
+        <div class="buttons">
+          <button class="btn">Download Resume</button>
+          <button class="btn">Visit Github</button>
+        </div>
+      </div>
+      
+      <div class="rightSection">
+        <img src="R.png" alt="">
+      </div>
+    </section>
+    
+    <section class="secondSection">
+      <span class="text-grey">
+        What I have done so far
+      </span>
+     <h1> Work Experiences</h1>
+     <div class="box">
+     
+      <div class="vertical">
+       <img class="image-top" src="HTML 5.png" alt="">
+       <div class="vertical-title">
+        HTML Developer(2010-2012)
+       </div>
+       <div class="vertical-desc">
+         <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis in nemo natus perferendis, odio cumque itaque nesciunt qui architecto. Eius nemo ipsa necessitatibus, omnis optio placeat possimus natus dicta, illo adipisci excepturi ducimus?</p>
+       </div>
+      </div>
+
+       <div class="vertical">
+       <img class="image-top" src="node.png" alt="">
+       <div class="vertical-title">
+        Node.Js Developer(2012-2014)
+       </div>
+       <div class="vertical-desc">
+         <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis in nemo natus perferendis, odio cumque itaque nesciunt qui architecto. Eius nemo ipsa necessitatibus, omnis optio placeat possimus natus dicta, illo adipisci excepturi ducimus?</p>
+       </div>
+      </div>
+
+       <div class="vertical">
+       <img class="image-top" src="android.png" alt="">
+       <div class="vertical-title">
+        Andriod Developer(2014-2016)
+       </div>
+       <div class="vertical-desc">
+         <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis in nemo natus perferendis, odio cumque itaque nesciunt qui architecto. Eius nemo ipsa necessitatibus, omnis optio placeat possimus natus dicta, illo adipisci excepturi ducimus?</p>
+       </div>
+      </div>
+
+       <div class="vertical">
+       <img class="image-top" src="netflix.png" alt="">
+       <div class="vertical-title">
+        Software Developer-Netflix(2016-2018)
+       </div>
+       <div class="vertical-desc">
+         <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis in nemo natus perferendis, odio cumque itaque nesciunt qui architecto. Eius nemo ipsa necessitatibus, omnis optio placeat possimus natus dicta, illo adipisci excepturi ducimus?</p>
+       </div>
+      </div>
+      
+      <div class="vertical">
+       <img class="image-top" src="facebook.png" alt="">
+       <div class="vertical-title">
+        Software Developer-Facebook(2018-2020)
+       </div>
+       <div class="vertical-desc">
+         <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis in nemo natus perferendis, odio cumque itaque nesciunt qui architecto. Eius nemo ipsa necessitatibus, omnis optio placeat possimus natus dicta, illo adipisci excepturi ducimus?</p>
+       </div>
+      </div>
+      
+      <div class="vertical">
+       <img class="image-top" src="youtube.png" alt="">
+       <div class="vertical-title">
+        Doftware Developer-Youtube(2020-2023)
+       </div>
+       <div class="vertical-desc">
+         <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis in nemo natus perferendis, odio cumque itaque nesciunt qui architecto. Eius nemo ipsa necessitatibus, omnis optio placeat possimus natus dicta, illo adipisci excepturi ducimus?</p>
+       </div>
+      </div>
+
+   </div>   
+  </section>
+</main>
+  <footer>
+    <div class="flex">
+      <div class="footer-first">
+        <h1>Yukesh's Developer Portfolio</h1>
+      </div>
+      <div class="footer-second">
+        <ul>
+          <li>Link 1</li>
+          <li>Link 2</li>
+          <li>Link 3 </li>
+          <li>Link 4</li>
+         </ul>
+      </div>
+      <div class="footer-third">
+        <ul>
+          <li>Link 1</li>
+          <li>Link 2</li>
+          <li>Link 3 </li>
+          <li>Link 4</li>
+         </ul>
+      </div>
+      <div class="footer-fourth">
+        <ul>
+          <li>Link 1</li>
+          <li>Link 2</li>
+          <li>Link 3 </li>
+          <li>Link 4</li>
+         </ul>
+      </div>
+    </div>
+  </footer>
+  <div class="footer-right">
+    www.katuwalukesh.com | ©All right reserved
+  </div>
+
+
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"> </script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer', 'Graphic Designer', 'App Developer', 'Data science Enthusiast'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+
+</html>
